@@ -24,10 +24,9 @@ Here's a simple script that shrimps your url:
 <pre><code>
 require 'shrimp_me'
 
-Create an instance of the client:
-
+_Create an instance of the client:_
 connection = ShrimpMe::Shrimp.new
 
-Post your long url:
+_Post your long url:_
 shrimpy_url = connection.shorten("http://en.wikipedia.org/wiki/Norm_Peterson")
 </pre></code>
