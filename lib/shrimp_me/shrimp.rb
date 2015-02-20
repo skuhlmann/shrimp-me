@@ -1,7 +1,6 @@
 require 'httparty'
 
 module ShrimpMe
-
   class Shrimp
     include HTTParty
     attr_reader :base_uri

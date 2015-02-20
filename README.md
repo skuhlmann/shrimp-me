@@ -1,6 +1,6 @@
 # ShrimpMe
 
-TODO: Write a gem description
+A wrapper gem for the Shrimpy.me url shortener api.
 
 ## Installation
 
@@ -20,7 +20,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Here's a simple script that shrimps your url:
+<pre><code>
+require 'shrimp_me'
+
+# Create an instance of the client
+connection = ShrimpMe::Shrimp.new
+
+# Post your long url
+shrimpy_url = connection.shorten("http://en.wikipedia.org/wiki/Norm_Peterson")
+
+</pre></code>
 
 ## Contributing
 
