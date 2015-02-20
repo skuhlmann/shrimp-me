@@ -2,7 +2,7 @@ require 'minitest/autorun'
 require 'minitest/pride'
 require 'vcr'
 require 'webmock'
-require './lib/shrimp_me/shrimp'
+require './lib/shrimp_me'
 
 class ClientTest < Minitest::Test
 
